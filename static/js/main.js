@@ -30,7 +30,3 @@ $('.close-collapse').on('click',function(e){
 	e.preventDefault();
 	$('.mobile-nav').animate({right: "-5000px"}, 200);
 });
-// $('.fixed-action-btn').openFAB();
-// $('.fixed-action-btn').closeFAB();
-// $('.fixed-action-btn.toolbar').openToolbar();
-// $('.fixed-action-btn.toolbar').closeToolbar();
