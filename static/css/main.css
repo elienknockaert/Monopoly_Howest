@@ -94,38 +94,38 @@ div.container ul li:before{
     content: '-';
 }
 
-div.God{
+div.withImage{
     display: flex;
 }
 
-div.God div{
+div.withImage div{
 	width: 50%;
 }
 
-div.God img{
+div.withImage img{
 	width: 50%;
     height: 50%;
 }
 
-div.MarcoIsLife{
+div.parent{
     width: 100%;
     display: flex;
 }
 
-div.God div.realypwetty{
+div.withImage div.legende{
     width: 48%;
     margin-left: 2%;
 }
 
-div.God div.realypwetty h2{
+div.withImage div.legende h2{
     margin-top: 0;
 }
 
-table.sexyMarco{
+table.geschiedenis{
     width: 85%;
 }
 
-div.MarcoIsLife div.MarcoIsLove{
+div.parent div.submits{
     width: 15%;
     text-align: right;
 }
