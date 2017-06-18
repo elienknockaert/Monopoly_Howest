@@ -1,0 +1,24 @@
+{% extends "template.html" %}
+
+{% block title %}
+    Monopoly
+{% endblock %}
+{% block content %}
+    <h1>Bord</h1>
+    <div class="God">
+        <img src={{ url_for('static',filename='images/monopoly.jpg') }}>
+        <div class="realypwetty">
+            <h2>Legende</h2>
+            <ul>
+                <li>Bruin: Sint-Jorisstraat</li>
+                <li>Licht blauw: Rijselstraat</li>
+                <li>Paars: The Studios</li>
+                <li>Oranje: Budafabriek</li>
+                <li>Rood: The Square</li>
+                <li>Geel: The Level</li>
+                <li>Groen: IDC</li>
+                <li>Donker blauw: GKG</li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}

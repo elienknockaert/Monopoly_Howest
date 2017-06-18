@@ -1,0 +1,17 @@
+{% extends "template.html" %}
+
+{% block title %}
+    Monopoly
+{% endblock %}
+{% block content %}
+    <h1>Home</h1>
+    <div class="God">
+        <div>
+            <p> Welkom bij Monopoly: Howest Edition!</p>
+            {{ macro.submit("nieuwspel","action","Nieuw Spel") }}
+            {{ macro.submit("bord","action","Bord") }}
+        </div>
+        <img src={{ url_for('static',filename='images/bord.jpg') }}>
+    </div>
+
+{% endblock %}

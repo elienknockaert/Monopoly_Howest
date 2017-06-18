@@ -1,0 +1,41 @@
+{% extends "template.html" %}
+
+{% block title %}
+    Monopoly
+{% endblock %}
+{% block content %}
+    <h1>Geschiedenis</h1>
+    <div class="MarcoIsLife">
+        <table class="sexyMarco">
+            <tr>
+                <th>Naam</th>
+                <th>Dobbelsteen</th>
+                <th>Vorig saldo</th>
+                <th>Huidig saldo</th>
+            </tr>
+            <tr>
+                <td>Marco</td>
+                <td>6-6</td>
+                <td>€0</td>
+                <td>€555555</td>
+            </tr>
+            <tr>
+                <td>Is</td>
+                <td>6-6</td>
+                <td>€0</td>
+                <td>€555555</td>
+            </tr>
+            <tr>
+                <td>Sexy</td>
+                <td>6-6</td>
+                <td>€0</td>
+                <td>€555555</td>
+            </tr>
+        </table>
+        <div class="MarcoIsLove">
+            {{ macro.submit("geschiedenis","action","Stop") }}
+            {{ macro.submit("geschiedenis","action","Opslaan") }}
+            {{ macro.submit("nieuwspel","action","Nieuw Spel") }}
+        </div>
+    </div>
+{% endblock %}

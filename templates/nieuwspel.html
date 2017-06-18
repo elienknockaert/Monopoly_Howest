@@ -1,0 +1,101 @@
+{% extends "template.html" %}
+
+{% block title %}
+    Monopoly
+{% endblock %}
+{% block content %}
+    {{ block }}
+    <h1>Nieuw Spel</h1>
+    <form class="clearfix" action="bord">
+        <div class="clearfix">
+            <div class="Input">
+                <h2>Naam</h2>
+                <div class="InputVeld">
+                    <label for="Speler1">Speler 1</label>
+                    <input type="input" name="Speler1">
+                </div>
+                <div class="InputVeld">
+                    <label for="Speler2">Speler 2</label>
+                    <input type="input" name="Speler2">
+                </div>
+                <div class="InputVeld">
+                    <label for="Speler3">Speler 3</label>
+                    <input type="input" name="Speler3">
+                </div>
+                <div class="InputVeld">
+                    <label for="Speler4">Speler 4</label>
+                    <input type="input" name="Speler4">
+                </div>
+            </div>
+            <div class="Input">
+                <h2>Pion</h2>
+                <div class="InputVeld">
+                    <label for="Speler1">&nbsp;</label>
+                    <select name="Poin1">
+                        <option value="Oranje">Oranje</option>
+                        <option value="Rood">Rood</option>
+                        <option value="Blauw">Blauw</option>
+                        <option value="Groen">Groen</option>
+                        <option value="Geel">Geel</option>
+                        <option value="Paars">Paars</option>
+                        <option value="Zwart">Zwart</option>
+                        <option value="Roze">Roze</option>
+                        <option value="Wit">Wit</option>
+                    </select>
+                </div>
+                <div class="InputVeld">
+                    <label for="Speler2">&nbsp;</label>
+                    <select name="Poin2">
+                        <option value="Oranje">Oranje</option>
+                        <option value="Rood">Rood</option>
+                        <option value="Blauw">Blauw</option>
+                        <option value="Groen">Groen</option>
+                        <option value="Geel">Geel</option>
+                        <option value="Paars">Paars</option>
+                        <option value="Zwart">Zwart</option>
+                        <option value="Roze">Roze</option>
+                        <option value="Wit">Wit</option>
+                    </select>
+                </div>
+                <div class="InputVeld">
+                    <label for="Speler3">&nbsp;</label>
+                    <select name="Poin3">
+                        <option value="Oranje">Oranje</option>
+                        <option value="Rood">Rood</option>
+                        <option value="Blauw">Blauw</option>
+                        <option value="Groen">Groen</option>
+                        <option value="Geel">Geel</option>
+                        <option value="Paars">Paars</option>
+                        <option value="Zwart">Zwart</option>
+                        <option value="Roze">Roze</option>
+                        <option value="Wit">Wit</option>
+                    </select>
+                </div>
+                <div class="InputVeld">
+                    <label for="Speler4">&nbsp;</label>
+                    <select name="Poin4">
+                        <option value="Oranje">Oranje</option>
+                        <option value="Rood">Rood</option>
+                        <option value="Blauw">Blauw</option>
+                        <option value="Groen">Groen</option>
+                        <option value="Geel">Geel</option>
+                        <option value="Paars">Paars</option>
+                        <option value="Zwart">Zwart</option>
+                        <option value="Roze">Roze</option>
+                        <option value="Wit">Wit</option>
+                    </select>
+                </div>
+            </div>
+            <div class="Input">
+                <h2>Groepsnaam</h2>
+                <div class="InputVeld">
+                    <label for="Groepsnaam">&nbsp;</label>
+                    <input type="input" name="Groepsnaam">
+                </div>
+            </div>
+        </div>
+        <div>
+            <input type="submit" name="action" value="Start">
+        </div>
+    </form>
+{% endblock %}

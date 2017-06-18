@@ -1,0 +1,9 @@
+{% macro print_td_link(waarde,url) %}
+    <td><a href="{{ url_for(url,naam=waarde) }}">{{ waarde }}</a></td>
+{% endmacro %}
+
+{% macro submit(url, name, value) %}
+    <form action="{{ url }}">
+        <input type="submit" name="{{ name }}" value="{{ value }}" />
+    </form>
+{% endmacro %}
