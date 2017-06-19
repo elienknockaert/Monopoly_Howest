@@ -1,32 +1,23 @@
 class DbClass:
-    def __init__(self):
-        import mysql.connector as connector
-        self.__dns = {
-            "host": "localhost",
-            "user": "monopoly",
-            "passwd": "monopoly",
-            "db": "dbmonopoly" }
+    def getdata(self, querry):
+        import mysql.connector
+        from mysql.connector import Error
+        var = ""
+        try:
+            conn = mysql.connector.connect(host='localhost', database='dbmonopoly', user='root', password='Zkhq3t57')
+            if conn.is_connected() == False:
+                print("not connected")
+                quit()
+            cursor = conn.cursor()
+            cursor.execute(querry)
+            rows = cursor.fetchall()
+            for row in rows:
+                var += str(row[0])
 
-        self.__connection = connector.connect(**self.__dns)
-        self.__cursor = self.__connection.cursor()
+            return var
 
-    def getSpelersByName(self):
-        query = "SELECT Naam FROM Spelers"
-        self.__cursor.execute(query)
-        result = self.__cursor.fetchall()
-        self.__cursor.close()
-        return result
+        except Error as e:
+            print(e)
 
-    def getSpelersByPion(self,Name):
-        query = "SELECT Pion FROM Spelers"
-        self.__cursor.execute(query)
-        result = self.__cursor.fetchall()
-        self.__cursor.close()
-        return result
-
-    def getSpelersBySaldo(self,Name):
-        query = "SELECT Saldo FROM Spelers"
-        self.__cursor.execute(query)
-        result = self.__cursor.fetchall()
-        self.__cursor.close()
-        return result
+        finally:
+            conn.close()

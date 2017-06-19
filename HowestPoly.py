@@ -18,9 +18,10 @@ def index2():
 
 @app.route('/geschiedenis')
 def geschiedenis():
-    spelersName = DbClass().getSpelersByName()
-    spelersPion = DbClass().getSpelersByPion()
-    spelersSaldo = DbClass().getSpelersBySaldo()
+    from DbClass import DbClass
+    spelersName = DbClass().getdata("SELECT Naam FROM spelers")
+    spelersPion = DbClass().getdata("SELECT Pion FROM spelers")
+    spelersSaldo = DbClass().getdata("SELECT Saldo FROM spelers")
     try:
         return render_template('geschiedenis.html',
                                spelersName = spelersName,
@@ -62,4 +63,4 @@ def page_not_found(e):
     return render_template('404.html')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
