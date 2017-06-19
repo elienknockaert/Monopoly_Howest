@@ -9,28 +9,26 @@
         <table class="geschiedenis">
             <tr>
                 <th>Naam</th>
-                <th>Dobbelsteen</th>
-                <th>Vorig saldo</th>
+                <th>Pion</th>
                 <th>Huidig saldo</th>
             </tr>
             <tr>
-                <td>Marco</td>
-                <td>6-6</td>
-                <td>€0</td>
-                <td>€555555</td>
+                <td>{{ spelersName }}</td>
+                <td>{{ spelersPion }}</td>
+                <td>{{ spelersSaldo }}</td>
             </tr>
-            <tr>
-                <td>Is</td>
-                <td>6-6</td>
-                <td>€0</td>
-                <td>€555555</td>
-            </tr>
-            <tr>
-                <td>Sexy</td>
-                <td>6-6</td>
-                <td>€0</td>
-                <td>€555555</td>
-            </tr>
+{#            <tr>#}
+{#                <td>Naam</td>#}
+{#                <td>Pion</td>#}
+{#                <td>€0</td>#}
+{#                <td>€555555</td>#}
+{#            </tr>#}
+{#            <tr>#}
+{#                <td>Naam</td>#}
+{#                <td>Pion</td>#}
+{#                <td>€0</td>#}
+{#                <td>€555555</td>#}
+{#            </tr>#}
         </table>
         <div class="submits">
             {{ macro.submit("geschiedenis","action","Stop") }}

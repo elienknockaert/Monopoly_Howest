@@ -18,8 +18,14 @@ def index2():
 
 @app.route('/geschiedenis')
 def geschiedenis():
+    spelersName = DbClass().getSpelersByName()
+    spelersPion = DbClass().getSpelersByPion()
+    spelersSaldo = DbClass().getSpelersBySaldo()
     try:
-        return render_template('geschiedenis.html')
+        return render_template('geschiedenis.html',
+                               spelersName = spelersName,
+                               spelersPion = spelersPion,
+                               spelersSaldo = spelersSaldo)
     except:
         abort(404)
 
