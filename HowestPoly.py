@@ -1,11 +1,11 @@
 from flask import Flask,render_template, abort
-
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
     # try:
+        print("test")
         return render_template('index.html')
     # except:
     #     abort(404)
@@ -18,10 +18,10 @@ def index2():
 
 @app.route('/geschiedenis')
 def geschiedenis():
-    from DbClass import DbClass
-    spelersName = DbClass().getdata("SELECT Naam FROM spelers")
-    spelersPion = DbClass().getdata("SELECT Pion FROM spelers")
-    spelersSaldo = DbClass().getdata("SELECT Saldo FROM spelers")
+    import DbClass
+    spelersName = DbClass.DbClass().getdata("SELECT Naam FROM spelers")
+    spelersPion = DbClass.DbClass().getdata("SELECT Pion FROM spelers")
+    spelersSaldo = DbClass.DbClass().getdata("SELECT Saldo FROM spelers")
     try:
         return render_template('geschiedenis.html',
                                spelersName = spelersName,
@@ -63,4 +63,5 @@ def page_not_found(e):
     return render_template('404.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0",debug=True)
+    # app.run(debug=True)

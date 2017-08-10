@@ -106,7 +106,7 @@ CREATE TABLE `spelers` (
 
 LOCK TABLES `spelers` WRITE;
 /*!40000 ALTER TABLE `spelers` DISABLE KEYS */;
-INSERT INTO `spelers` VALUES (1,NULL,'Elien','Roze',15000),(2,NULL,'Emmily','Oranje',22000),(3,NULL,'Niels','Blauw',20000),(4,NULL,'Marco','Paars',24000);
+INSERT INTO `spelers` VALUES (1,NULL,'Speler 1','Roze',15000),(2,NULL,'Speler 2','Oranje',22000),(3,NULL,'Speler 3','Blauw',20000),(4,NULL,'Speler 4','Paars',24000);
 /*!40000 ALTER TABLE `spelers` ENABLE KEYS */;
 UNLOCK TABLES;
 

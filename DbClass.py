@@ -3,8 +3,12 @@ class DbClass:
         import mysql.connector
         from mysql.connector import Error
         value = []
+        conn = mysql.connector.connect(host='localhost',
+                                       database='dbmonopoly',
+                                       user='monopoly',
+                                       password='elienknockaert')
         try:
-            conn = mysql.connector.connect(host='localhost', database='dbmonopoly', user='root', password='Zkhq3t57')
+
             if conn.is_connected() == False:
                 print("not connected")
                 quit()
