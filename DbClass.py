@@ -25,3 +25,25 @@ class DbClass:
 
         finally:
             conn.close()
+
+    def writedb(self, querry):
+        import mysql.connector, os, time
+        from mysql.connector import Error
+
+        try:
+            conn = mysql.connector.connect(host='localhost',
+                                           database='dbmonopoly',
+                                           user='monopoly',
+                                           password='elienknockaert')
+            if conn.is_connected() == False:
+                print("not connected")
+                quit()
+            cursor = conn.cursor()
+            cursor.execute(querry)
+            conn.commit()
+        except Error as e:
+            print(e)
+            conn.rollback()
+
+        finally:
+            conn.close()
