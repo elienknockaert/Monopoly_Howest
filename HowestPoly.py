@@ -2,8 +2,6 @@ from flask import Flask, render_template, abort, request
 
 app = Flask(__name__)
 import DbClass
-import sercom
-
 import MySQLdb as mdb
 con = mdb.connect('localhost', 'monopoly', 'elienknockaert', 'dbmonopoly')
 cur = con.cursor()
@@ -68,9 +66,13 @@ def get_data():
         con.commit()
 
     spelersName = DbClass.DbClass().getdata("SELECT RFID FROM spelers WHERE ID = '1'")
-    import sercom
+    import serial
+    ser = serial.Serial("/dev/ttyS0",9600,timeout=0)
+    ser.readline(10)
     if spelersName == '322372502645':
-        sercom.Serial().write_name(spelersName)
+        ser.write(spelersName)
+    else:
+        pass
     return render_template('nieuwspel.html')
 
 @app.route('/bord')

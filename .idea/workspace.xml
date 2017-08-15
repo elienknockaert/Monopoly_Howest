@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cae48d3-b81c-4825-893c-fbe0d9e961ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sercom.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/serial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sercom.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DbClass.py" afterPath="$PROJECT_DIR$/DbClass.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HowestPoly.py" afterPath="$PROJECT_DIR$/HowestPoly.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/geschiedenis.html" afterPath="$PROJECT_DIR$/templates/geschiedenis.html" />
     </list>
     <ignored path="HowestPoly.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,9 +18,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Monopoly$DbClass__2_.coverage" NAME="DbClass (2) Coverage Results" MODIFIED="1497864238917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Monopoly$HowestPoly.coverage" NAME="HowestPoly Coverage Results" MODIFIED="1502803719708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Monopoly$HowestPoly.coverage" NAME="HowestPoly Coverage Results" MODIFIED="1502810964188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HowestPoly$HowestPoly.coverage" NAME="HowestPoly Coverage Results" MODIFIED="1497623654978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Monopoly$serial.coverage" NAME="serial Coverage Results" MODIFIED="1502807414691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Monopoly$serial.coverage" NAME="serial Coverage Results" MODIFIED="1502807792030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monopoly$DbClass__1_.coverage" NAME="DbClass (1) Coverage Results" MODIFIED="1497799864493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -57,21 +54,9 @@
       <file leaf-file-name="DbClass.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DbClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="189">
               <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sercom.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sercom.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -79,31 +64,41 @@
       <file leaf-file-name="HowestPoly.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HowestPoly.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+            <state relative-caret-position="336">
+              <caret line="74" column="12" lean-forward="false" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
               <folding>
-                <marker date="1502807207564" expanded="true" signature="581:605" ph="SELECT Naam spelers" />
-                <marker date="1502807207564" expanded="true" signature="653:677" ph="SELECT Pion spelers" />
-                <marker date="1502807207564" expanded="true" signature="726:751" ph="SELECT Saldo... spelers" />
-                <marker date="1502807207564" expanded="true" signature="1457:1484" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="1457:1515" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="1539:1597" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="1621:1679" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="1703:1761" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="1785:1812" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="1785:1841" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="1865:1921" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="1945:2001" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="2025:2081" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="2105:2131" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="2105:2137" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="2105:2152" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="2176:2223" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="2247:2294" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="2318:2365" ph="UPDATE spele... " />
-                <marker date="1502807207564" expanded="true" signature="2435:2474" ph="SELECT RFID spelers" />
-                <marker date="1502807207564" expanded="true" signature="2626:2923" ph="INSERT INTO spelers... " />
+                <marker date="1502810369083" expanded="true" signature="566:590" ph="SELECT Naam spelers" />
+                <marker date="1502810369083" expanded="true" signature="638:662" ph="SELECT Pion spelers" />
+                <marker date="1502810369083" expanded="true" signature="711:736" ph="SELECT Saldo... spelers" />
+                <marker date="1502810369083" expanded="true" signature="1442:1469" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="1442:1500" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="1524:1582" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="1606:1664" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="1688:1746" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="1770:1797" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="1770:1826" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="1850:1906" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="1930:1986" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="2010:2066" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="2090:2116" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="2090:2122" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="2090:2137" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="2161:2208" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="2232:2279" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="2303:2350" ph="UPDATE spele... " />
+                <marker date="1502810369083" expanded="true" signature="2420:2459" ph="SELECT RFID spelers" />
+                <marker date="1502810369083" expanded="true" signature="2691:2988" ph="INSERT INTO spelers... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-525">
+              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,9 +178,9 @@
         <option value="$PROJECT_DIR$/templates/button.html" />
         <option value="$PROJECT_DIR$/templates/template.html" />
         <option value="$PROJECT_DIR$/DbClass.py" />
-        <option value="$PROJECT_DIR$/HowestPoly.py" />
         <option value="$PROJECT_DIR$/serial.py" />
         <option value="$PROJECT_DIR$/sercom.py" />
+        <option value="$PROJECT_DIR$/HowestPoly.py" />
       </list>
     </option>
   </component>
@@ -306,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.serial">
+  <component name="RunManager" selected="Python.HowestPoly">
     <configuration default="false" name="DbClass (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -637,6 +632,14 @@
       <option name="presentableId" value="Default" />
       <updated>1497447653630</updated>
     </task>
+    <task id="LOCAL-00001" summary="serial">
+      <created>1502807589497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1502807589498</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -687,6 +690,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="serial" />
+    <option name="LAST_COMMIT_MESSAGE" value="serial" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -715,27 +722,27 @@
         <state relative-caret-position="651">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <marker date="1502807207564" expanded="true" signature="581:605" ph="SELECT Naam spelers" />
-            <marker date="1502807207564" expanded="true" signature="653:677" ph="SELECT Pion spelers" />
-            <marker date="1502807207564" expanded="true" signature="726:751" ph="SELECT Saldo... spelers" />
-            <marker date="1502807207564" expanded="true" signature="1457:1484" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1457:1515" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1539:1597" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1621:1679" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1703:1761" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1785:1812" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1785:1841" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1865:1921" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1945:2001" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2025:2081" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2105:2131" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2105:2137" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2105:2152" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2176:2223" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2247:2294" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2318:2365" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2435:2474" ph="SELECT RFID spelers" />
-            <marker date="1502807207564" expanded="true" signature="2626:2923" ph="INSERT INTO spelers... " />
+            <marker date="1502810369083" expanded="true" signature="566:590" ph="SELECT Naam spelers" />
+            <marker date="1502810369083" expanded="true" signature="638:662" ph="SELECT Pion spelers" />
+            <marker date="1502810369083" expanded="true" signature="711:736" ph="SELECT Saldo... spelers" />
+            <marker date="1502810369083" expanded="true" signature="1442:1469" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1442:1500" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1524:1582" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1606:1664" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1688:1746" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1770:1797" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1770:1826" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1850:1906" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1930:1986" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2010:2066" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2090:2116" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2090:2122" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2090:2137" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2161:2208" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2232:2279" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2303:2350" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2420:2459" ph="SELECT RFID spelers" />
+            <marker date="1502810369083" expanded="true" signature="2691:2988" ph="INSERT INTO spelers... " />
           </folding>
         </state>
       </provider>
@@ -769,27 +776,27 @@
         <state relative-caret-position="798">
           <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding>
-            <marker date="1502807207564" expanded="true" signature="581:605" ph="SELECT Naam spelers" />
-            <marker date="1502807207564" expanded="true" signature="653:677" ph="SELECT Pion spelers" />
-            <marker date="1502807207564" expanded="true" signature="726:751" ph="SELECT Saldo... spelers" />
-            <marker date="1502807207564" expanded="true" signature="1457:1484" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1457:1515" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1539:1597" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1621:1679" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1703:1761" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1785:1812" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1785:1841" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1865:1921" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1945:2001" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2025:2081" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2105:2131" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2105:2137" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2105:2152" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2176:2223" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2247:2294" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2318:2365" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2435:2474" ph="SELECT RFID spelers" />
-            <marker date="1502807207564" expanded="true" signature="2626:2923" ph="INSERT INTO spelers... " />
+            <marker date="1502810369083" expanded="true" signature="566:590" ph="SELECT Naam spelers" />
+            <marker date="1502810369083" expanded="true" signature="638:662" ph="SELECT Pion spelers" />
+            <marker date="1502810369083" expanded="true" signature="711:736" ph="SELECT Saldo... spelers" />
+            <marker date="1502810369083" expanded="true" signature="1442:1469" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1442:1500" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1524:1582" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1606:1664" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1688:1746" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1770:1797" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1770:1826" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1850:1906" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1930:1986" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2010:2066" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2090:2116" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2090:2122" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2090:2137" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2161:2208" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2232:2279" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2303:2350" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2420:2459" ph="SELECT RFID spelers" />
+            <marker date="1502810369083" expanded="true" signature="2691:2988" ph="INSERT INTO spelers... " />
           </folding>
         </state>
       </provider>
@@ -850,27 +857,27 @@
         <state relative-caret-position="561">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1502807207564" expanded="true" signature="581:605" ph="SELECT Naam spelers" />
-            <marker date="1502807207564" expanded="true" signature="653:677" ph="SELECT Pion spelers" />
-            <marker date="1502807207564" expanded="true" signature="726:751" ph="SELECT Saldo... spelers" />
-            <marker date="1502807207564" expanded="true" signature="1457:1484" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1457:1515" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1539:1597" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1621:1679" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1703:1761" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1785:1812" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1785:1841" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1865:1921" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1945:2001" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2025:2081" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2105:2131" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2105:2137" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2105:2152" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2176:2223" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2247:2294" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2318:2365" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2435:2474" ph="SELECT RFID spelers" />
-            <marker date="1502807207564" expanded="true" signature="2626:2923" ph="INSERT INTO spelers... " />
+            <marker date="1502810369083" expanded="true" signature="566:590" ph="SELECT Naam spelers" />
+            <marker date="1502810369083" expanded="true" signature="638:662" ph="SELECT Pion spelers" />
+            <marker date="1502810369083" expanded="true" signature="711:736" ph="SELECT Saldo... spelers" />
+            <marker date="1502810369083" expanded="true" signature="1442:1469" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1442:1500" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1524:1582" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1606:1664" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1688:1746" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1770:1797" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1770:1826" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1850:1906" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1930:1986" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2010:2066" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2090:2116" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2090:2122" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2090:2137" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2161:2208" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2232:2279" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2303:2350" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2420:2459" ph="SELECT RFID spelers" />
+            <marker date="1502810369083" expanded="true" signature="2691:2988" ph="INSERT INTO spelers... " />
           </folding>
         </state>
       </provider>
@@ -980,14 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/nieuwspel2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
@@ -1033,14 +1032,14 @@
         <state relative-caret-position="336">
           <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
-            <element signature="e#372#385#0" expanded="true" />
+            <element signature="e#372#385#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DbClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="189">
           <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding />
         </state>
@@ -1048,40 +1047,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sercom.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HowestPoly.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+        <state relative-caret-position="336">
+          <caret line="74" column="12" lean-forward="false" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
           <folding>
-            <marker date="1502807207564" expanded="true" signature="581:605" ph="SELECT Naam spelers" />
-            <marker date="1502807207564" expanded="true" signature="653:677" ph="SELECT Pion spelers" />
-            <marker date="1502807207564" expanded="true" signature="726:751" ph="SELECT Saldo... spelers" />
-            <marker date="1502807207564" expanded="true" signature="1457:1484" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1457:1515" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1539:1597" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1621:1679" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1703:1761" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1785:1812" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1785:1841" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1865:1921" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="1945:2001" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2025:2081" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2105:2131" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2105:2137" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2105:2152" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2176:2223" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2247:2294" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2318:2365" ph="UPDATE spele... " />
-            <marker date="1502807207564" expanded="true" signature="2435:2474" ph="SELECT RFID spelers" />
-            <marker date="1502807207564" expanded="true" signature="2626:2923" ph="INSERT INTO spelers... " />
+            <marker date="1502810369083" expanded="true" signature="566:590" ph="SELECT Naam spelers" />
+            <marker date="1502810369083" expanded="true" signature="638:662" ph="SELECT Pion spelers" />
+            <marker date="1502810369083" expanded="true" signature="711:736" ph="SELECT Saldo... spelers" />
+            <marker date="1502810369083" expanded="true" signature="1442:1469" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1442:1500" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1524:1582" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1606:1664" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1688:1746" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1770:1797" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1770:1826" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1850:1906" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="1930:1986" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2010:2066" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2090:2116" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2090:2122" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2090:2137" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2161:2208" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2232:2279" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2303:2350" ph="UPDATE spele... " />
+            <marker date="1502810369083" expanded="true" signature="2420:2459" ph="SELECT RFID spelers" />
+            <marker date="1502810369083" expanded="true" signature="2691:2988" ph="INSERT INTO spelers... " />
           </folding>
         </state>
       </provider>
