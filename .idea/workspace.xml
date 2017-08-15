@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cae48d3-b81c-4825-893c-fbe0d9e961ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/HowestPoly.iml" afterPath="$PROJECT_DIR$/.idea/HowestPoly.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sercom.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/serial.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DbClass.py" afterPath="$PROJECT_DIR$/DbClass.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HowestPoly.py" afterPath="$PROJECT_DIR$/HowestPoly.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dbmonopoly.sql" afterPath="$PROJECT_DIR$/dbmonopoly.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/nieuwspel.html" afterPath="$PROJECT_DIR$/templates/nieuwspel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/geschiedenis.html" afterPath="$PROJECT_DIR$/templates/geschiedenis.html" />
     </list>
     <ignored path="HowestPoly.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +21,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Monopoly$DbClass__2_.coverage" NAME="DbClass (2) Coverage Results" MODIFIED="1497864238917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Monopoly$HowestPoly.coverage" NAME="HowestPoly Coverage Results" MODIFIED="1502019964093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Monopoly$HowestPoly.coverage" NAME="HowestPoly Coverage Results" MODIFIED="1502803719708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/HowestPoly$HowestPoly.coverage" NAME="HowestPoly Coverage Results" MODIFIED="1497623654978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Monopoly$serial.coverage" NAME="serial Coverage Results" MODIFIED="1502807414691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Monopoly$DbClass__1_.coverage" NAME="DbClass (1) Coverage Results" MODIFIED="1497799864493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -58,16 +54,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="HowestPoly.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DbClass.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DbClass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sercom.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sercom.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HowestPoly.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HowestPoly.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+            <state relative-caret-position="357">
+              <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
               <folding>
-                <marker date="1502091779933" expanded="true" signature="446:470" ph="SELECT Naam spelers" />
-                <marker date="1502091779933" expanded="true" signature="518:542" ph="SELECT Pion spelers" />
-                <marker date="1502091779933" expanded="true" signature="591:616" ph="SELECT Saldo... spelers" />
+                <marker date="1502807207564" expanded="true" signature="581:605" ph="SELECT Naam spelers" />
+                <marker date="1502807207564" expanded="true" signature="653:677" ph="SELECT Pion spelers" />
+                <marker date="1502807207564" expanded="true" signature="726:751" ph="SELECT Saldo... spelers" />
+                <marker date="1502807207564" expanded="true" signature="1457:1484" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="1457:1515" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="1539:1597" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="1621:1679" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="1703:1761" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="1785:1812" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="1785:1841" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="1865:1921" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="1945:2001" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="2025:2081" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="2105:2131" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="2105:2137" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="2105:2152" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="2176:2223" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="2247:2294" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="2318:2365" ph="UPDATE spele... " />
+                <marker date="1502807207564" expanded="true" signature="2435:2474" ph="SELECT RFID spelers" />
+                <marker date="1502807207564" expanded="true" signature="2626:2923" ph="INSERT INTO spelers... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,8 +121,8 @@
       <file leaf-file-name="nieuwspel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/nieuwspel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="62" column="58" lean-forward="false" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+            <state relative-caret-position="1995">
+              <caret line="95" column="14" lean-forward="false" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -85,8 +131,8 @@
       <file leaf-file-name="geschiedenis.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/geschiedenis.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-166">
-              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="798">
+              <caret line="38" column="65" lean-forward="false" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -95,28 +141,8 @@
       <file leaf-file-name="bord.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/bord.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbmonopoly.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dbmonopoly.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2457">
-              <caret line="117" column="62" lean-forward="false" selection-start-line="117" selection-start-column="62" selection-end-line="117" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbClass.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DbClass.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="483">
+              <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -129,6 +155,7 @@
       <list>
         <option value="Flask Main" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -143,19 +170,22 @@
         <option value="$PROJECT_DIR$/../2 Device programming/1NMCT3_Baele_Marco_DP1-Ex/templates/index.html" />
         <option value="$PROJECT_DIR$/../2 Device programming/1NMCT3_Baele_Marco_DP1-Ex/templates/layout.html" />
         <option value="$PROJECT_DIR$/templates/404.html" />
-        <option value="$PROJECT_DIR$/templates/macros.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/templates/bord.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="G:/School/Semester 2/Device Programming 1/HerhalingsoefeningenMarco/DbClass.py" />
         <option value="$PROJECT_DIR$/Monopoly/DbClass.py" />
         <option value="$PROJECT_DIR$/Monopoly/templates/geschiedenis.html" />
-        <option value="$PROJECT_DIR$/templates/template.html" />
-        <option value="$PROJECT_DIR$/templates/geschiedenis.html" />
-        <option value="$PROJECT_DIR$/templates/nieuwspel.html" />
         <option value="$PROJECT_DIR$/dbmonopoly.sql" />
-        <option value="$PROJECT_DIR$/HowestPoly.py" />
+        <option value="$PROJECT_DIR$/templates/geschiedenis.html" />
+        <option value="$PROJECT_DIR$/templates/macros.html" />
+        <option value="$PROJECT_DIR$/templates/nieuwspel.html" />
+        <option value="$PROJECT_DIR$/templates/button.html" />
+        <option value="$PROJECT_DIR$/templates/template.html" />
         <option value="$PROJECT_DIR$/DbClass.py" />
+        <option value="$PROJECT_DIR$/HowestPoly.py" />
+        <option value="$PROJECT_DIR$/serial.py" />
+        <option value="$PROJECT_DIR$/sercom.py" />
       </list>
     </option>
   </component>
@@ -166,10 +196,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1060" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -213,6 +243,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Monopoly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Monopoly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Monopoly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Monopoly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -222,8 +284,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="G:/Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../herexamens/device programming/Examens/Q4/test" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -243,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HowestPoly">
+  <component name="RunManager" selected="Python.serial">
     <configuration default="false" name="DbClass (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,6 +321,28 @@
       <module name="HowestPoly" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DbClass.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="nieuwspel.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Monopoly/templates/nieuwspel.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="serial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HowestPoly" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\elien\Desktop\project\site\Monopoly\sercom.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -502,15 +587,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.HowestPoly" />
       <item index="1" class="java.lang.String" itemvalue="Python.DbClass" />
       <item index="2" class="java.lang.String" itemvalue="Python.DbClass (1)" />
       <item index="3" class="java.lang.String" itemvalue="Python.DbClass (2)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.nieuwspel.html" />
+      <item index="5" class="java.lang.String" itemvalue="Python.serial" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.DbClass (2)" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.serial" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.nieuwspel.html" />
+        <item index="2" class="java.lang.String" itemvalue="Python.DbClass (2)" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -537,6 +626,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7cae48d3-b81c-4825-893c-fbe0d9e961ad" name="Default" comment="" />
@@ -557,27 +649,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <frame x="1" y="1" width="1918" height="1040" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21693735" sideWeight="0.4709989" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2743468" sideWeight="0.47122693" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.49555555" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.52900106" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2743468" sideWeight="0.52877307" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17400645" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1595059" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16720955" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39904988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -602,42 +694,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DbClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/geschiedenis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HowestPoly.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <marker date="1502091779933" expanded="true" signature="446:470" ph="SELECT Naam spelers" />
-            <marker date="1502091779933" expanded="true" signature="518:542" ph="SELECT Pion spelers" />
-            <marker date="1502091779933" expanded="true" signature="591:616" ph="SELECT Saldo... spelers" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/geschiedenis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/bord.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -659,9 +715,27 @@
         <state relative-caret-position="651">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <marker date="1502091779933" expanded="true" signature="446:470" ph="SELECT Naam spelers" />
-            <marker date="1502091779933" expanded="true" signature="518:542" ph="SELECT Pion spelers" />
-            <marker date="1502091779933" expanded="true" signature="591:616" ph="SELECT Saldo... spelers" />
+            <marker date="1502807207564" expanded="true" signature="581:605" ph="SELECT Naam spelers" />
+            <marker date="1502807207564" expanded="true" signature="653:677" ph="SELECT Pion spelers" />
+            <marker date="1502807207564" expanded="true" signature="726:751" ph="SELECT Saldo... spelers" />
+            <marker date="1502807207564" expanded="true" signature="1457:1484" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1457:1515" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1539:1597" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1621:1679" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1703:1761" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1785:1812" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1785:1841" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1865:1921" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1945:2001" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2025:2081" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2105:2131" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2105:2137" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2105:2152" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2176:2223" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2247:2294" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2318:2365" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2435:2474" ph="SELECT RFID spelers" />
+            <marker date="1502807207564" expanded="true" signature="2626:2923" ph="INSERT INTO spelers... " />
           </folding>
         </state>
       </provider>
@@ -695,9 +769,27 @@
         <state relative-caret-position="798">
           <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding>
-            <marker date="1502091779933" expanded="true" signature="446:470" ph="SELECT Naam spelers" />
-            <marker date="1502091779933" expanded="true" signature="518:542" ph="SELECT Pion spelers" />
-            <marker date="1502091779933" expanded="true" signature="591:616" ph="SELECT Saldo... spelers" />
+            <marker date="1502807207564" expanded="true" signature="581:605" ph="SELECT Naam spelers" />
+            <marker date="1502807207564" expanded="true" signature="653:677" ph="SELECT Pion spelers" />
+            <marker date="1502807207564" expanded="true" signature="726:751" ph="SELECT Saldo... spelers" />
+            <marker date="1502807207564" expanded="true" signature="1457:1484" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1457:1515" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1539:1597" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1621:1679" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1703:1761" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1785:1812" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1785:1841" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1865:1921" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1945:2001" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2025:2081" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2105:2131" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2105:2137" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2105:2152" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2176:2223" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2247:2294" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2318:2365" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2435:2474" ph="SELECT RFID spelers" />
+            <marker date="1502807207564" expanded="true" signature="2626:2923" ph="INSERT INTO spelers... " />
           </folding>
         </state>
       </provider>
@@ -746,7 +838,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nieuwspel.html">
+    <entry file="file://$PROJECT_DIR$/templates/nieuwspel2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
@@ -758,9 +850,27 @@
         <state relative-caret-position="561">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1502091779933" expanded="true" signature="446:470" ph="SELECT Naam spelers" />
-            <marker date="1502091779933" expanded="true" signature="518:542" ph="SELECT Pion spelers" />
-            <marker date="1502091779933" expanded="true" signature="591:616" ph="SELECT Saldo... spelers" />
+            <marker date="1502807207564" expanded="true" signature="581:605" ph="SELECT Naam spelers" />
+            <marker date="1502807207564" expanded="true" signature="653:677" ph="SELECT Pion spelers" />
+            <marker date="1502807207564" expanded="true" signature="726:751" ph="SELECT Saldo... spelers" />
+            <marker date="1502807207564" expanded="true" signature="1457:1484" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1457:1515" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1539:1597" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1621:1679" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1703:1761" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1785:1812" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1785:1841" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1865:1921" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1945:2001" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2025:2081" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2105:2131" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2105:2137" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2105:2152" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2176:2223" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2247:2294" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2318:2365" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2435:2474" ph="SELECT RFID spelers" />
+            <marker date="1502807207564" expanded="true" signature="2626:2923" ph="INSERT INTO spelers... " />
           </folding>
         </state>
       </provider>
@@ -804,13 +914,6 @@
     <entry file="file://$PROJECT_DIR$/templates/macros.jinja" />
     <entry file="file://$PROJECT_DIR$/../2 Device programming/Week 5/Week 5.py" />
     <entry file="file://$PROJECT_DIR$/../2 Device programming/Week 6/Week 6.py" />
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../2 Device programming/Week 6/templates/scores.html" />
     <entry file="file://G:/School/Semester 2/Device Programming 1/Herhalingsoefeningen/Herhalingsoefeningen/Herhalingsoefeningen.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -821,29 +924,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Monopoly/DbClass.py" />
     <entry file="file://$PROJECT_DIR$/Monopoly/templates/geschiedenis.html" />
-    <entry file="file://$PROJECT_DIR$/templates/macros.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e084f71f-a154-488d-b34b-000de1fcab98/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -868,42 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bord.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HowestPoly.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding>
-            <marker date="1502091779933" expanded="true" signature="446:470" ph="SELECT Naam spelers" />
-            <marker date="1502091779933" expanded="true" signature="518:542" ph="SELECT Pion spelers" />
-            <marker date="1502091779933" expanded="true" signature="591:616" ph="SELECT Saldo... spelers" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/geschiedenis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nieuwspel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="62" column="58" lean-forward="false" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dbmonopoly.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2457">
@@ -912,11 +956,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/macros.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nieuwspel2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="46" column="55" lean-forward="false" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="30" column="47" lean-forward="false" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nieuwspel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="95" column="14" lean-forward="false" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/geschiedenis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="65" lean-forward="false" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/remote_sources/-1819740893/-125940560/serial/urlhandler/protocol_hwgrep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#372#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DbClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sercom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HowestPoly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+          <folding>
+            <marker date="1502807207564" expanded="true" signature="581:605" ph="SELECT Naam spelers" />
+            <marker date="1502807207564" expanded="true" signature="653:677" ph="SELECT Pion spelers" />
+            <marker date="1502807207564" expanded="true" signature="726:751" ph="SELECT Saldo... spelers" />
+            <marker date="1502807207564" expanded="true" signature="1457:1484" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1457:1515" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1539:1597" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1621:1679" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1703:1761" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1785:1812" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1785:1841" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1865:1921" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="1945:2001" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2025:2081" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2105:2131" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2105:2137" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2105:2152" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2176:2223" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2247:2294" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2318:2365" ph="UPDATE spele... " />
+            <marker date="1502807207564" expanded="true" signature="2435:2474" ph="SELECT RFID spelers" />
+            <marker date="1502807207564" expanded="true" signature="2626:2923" ph="INSERT INTO spelers... " />
+          </folding>
         </state>
       </provider>
     </entry>

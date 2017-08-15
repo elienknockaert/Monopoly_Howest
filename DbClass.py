@@ -1,5 +1,5 @@
 class DbClass:
-    def getdata(self, querry):
+    def getdata(self, query):
         import mysql.connector
         from mysql.connector import Error
         value = []
@@ -13,7 +13,7 @@ class DbClass:
                 print("not connected")
                 quit()
             cursor = conn.cursor()
-            cursor.execute(querry)
+            cursor.execute(query)
             rows = cursor.fetchall()
             for row in rows:
                 value.append(str(row[0]))
@@ -26,10 +26,9 @@ class DbClass:
         finally:
             conn.close()
 
-    def writedb(self, querry):
-        import mysql.connector, os, time
+    def writedb(self, query):
+        import mysql.connector
         from mysql.connector import Error
-
         try:
             conn = mysql.connector.connect(host='localhost',
                                            database='dbmonopoly',
@@ -39,7 +38,7 @@ class DbClass:
                 print("not connected")
                 quit()
             cursor = conn.cursor()
-            cursor.execute(querry)
+            cursor.execute(query)
             conn.commit()
         except Error as e:
             print(e)
@@ -47,3 +46,10 @@ class DbClass:
 
         finally:
             conn.close()
+
+
+
+
+
+
+
