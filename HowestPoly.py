@@ -3,7 +3,7 @@ from flask import Flask, render_template, abort, request
 app = Flask(__name__)
 import DbClass
 import MySQLdb as mdb
-con = mdb.connect('localhost', 'monopoly', 'elienknockaert', 'dbmonopoly')
+con = mdb.connect('localhost', 'root', 'Zkhq3t57', 'dbmonopoly')
 cur = con.cursor()
 
 
