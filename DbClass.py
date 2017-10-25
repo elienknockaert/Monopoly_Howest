@@ -4,9 +4,9 @@ class DbClass:
         from mysql.connector import Error
         value = []
         conn = mysql.connector.connect(host='localhost',
-                                       database='dbmonopoly',
-                                       user='root',
-                                       password='Zkhq3t57')
+                                       database='x',
+                                       user='x',
+                                       password='x')
         try:
 
             if conn.is_connected() == False:
@@ -31,9 +31,9 @@ class DbClass:
         from mysql.connector import Error
         try:
             conn = mysql.connector.connect(host='localhost',
-                                           database='dbmonopoly',
-                                           user='root',
-                                           password='Zkhq3t57')
+                                           database='x',
+                                           user='x',
+                                           password='x')
             if conn.is_connected() == False:
                 print("not connected")
                 quit()

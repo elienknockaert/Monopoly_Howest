@@ -3,7 +3,7 @@ from flask import Flask, render_template, abort, request
 app = Flask(__name__)
 import DbClass
 import MySQLdb as mdb
-con = mdb.connect('localhost', 'root', 'Zkhq3t57', 'dbmonopoly')
+con = mdb.connect('localhost', 'x', 'x', 'x')
 cur = con.cursor()
 
 
@@ -11,7 +11,7 @@ cur = con.cursor()
 @app.route('/')
 def index():
     # try:
-    print("test")
+    print()
     return render_template('index.html')
     # except:
     #     abort(404)
@@ -66,6 +66,7 @@ def get_data():
         con.commit()
 
     spelersName = DbClass.DbClass().getdata("SELECT RFID FROM spelers WHERE ID = '1'")
+    print(spelersName)
     import serial
     ser = serial.Serial("/dev/ttyS0",9600,timeout=0)
     ser.readline(10)
